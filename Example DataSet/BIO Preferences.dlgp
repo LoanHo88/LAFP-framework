@@ -1,0 +1,22 @@
+proxyFor(personDes54067548_04,person54067548) 3
+hasDeathday(personDes54067548_04,"1953-01-22") 3
+hasName(personDes54067548_04,"Simonde,Graaff") 3
+proxyFor(personDes54067548_02,person54067548) 0
+hasDeathday(personDes54067548_02,"1953-01-22") 0
+hasName(personDes54067548_02,"Simonde,Graaff") 0
+proxyFor(personDes54067548_01,person54067548) 1
+hasDeathday(personDes54067548_01,"1948-10-02") 1
+hasName(personDes54067548_01,"Simonde,Graaff") 1
+proxyFor(personDes12905103_07,person12905103) 0
+hasBirthday(personDes12905103_07,"1704") 0
+hasName(personDes12905103_07,"Versteeg,Nikolaes") 0
+proxyFor(personDes12905103_03,person12905103) 0
+hasBirthday(personDes12905103_03,"1700-10-11") 0
+hasName(personDes12905103_03, "Versteeg,Nikolaes") 0
+personID(person54067548) 0
+personID(person12905103) 0
+personDes(personDes54067548_04) 0
+personDes(personDes54067548_03) 0
+personDes(personDes54067548_02) 0
+personDes(personDes12905103_07) 0
+personDes(personDes12905103_03) 0

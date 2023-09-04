@@ -1,0 +1,46 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix owl2: <http://www.w3.org/2006/12/owl2#>
+@prefix owl2xml: <http://www.w3.org/2006/12/owl2-xml#>
+@prefix da: <http://data.biographynet.nl/rdf/#>
+@top top
+personID(X0) :- personDes(X3),proxyFor(X3,X0).
+personDes(X0) :- hasDeathPlace(X0,X3).
+personDes(X0) :- hasBirthPlace(X0,X3).
+personDes(X2) :- hasDeathday(X2,X3).
+personDes(X1) :- hasBirthday(X1,X3).
+personDes(X0) :- hasName(X0,X3).
+X1 = X4 :- hasBirthday(X2,X1),hasBirthday(X3,X4).
+X1 = X4 :- hasDeathday(X2,X1),hasDeathday(X3,X4).
+
+
+
+proxyFor(personDes54067548_04,person54067548).
+hasDeathday(personDes54067548_04,"1953-01-22").
+hasName(personDes54067548_04,"Simonde,Graaff").
+proxyFor(personDes54067548_02,person54067548).
+hasDeathday(personDes54067548_02,"1953-01-22").
+hasName(personDes54067548_02,"Simonde,Graaff").
+proxyFor(personDes54067548_01,person54067548).
+hasDeathday(personDes54067548_01,"1948-10-02").
+hasName(personDes54067548_01,"Simonde,Graaff").
+proxyFor(personDes12905103_07,person12905103).
+hasBirthday(personDes12905103_07,"1704").
+hasName(personDes12905103_07,"Versteeg,Nikolaes").
+proxyFor(personDes12905103_03,person12905103).
+hasBirthday(personDes12905103_03,"1700-10-11").
+hasName(personDes12905103_03,"Versteeg,Nikolaes").
+personID(person54067548).
+personID(person12905103).
+personDes(personDes54067548_04).
+personDes(personDes54067548_03).
+personDes(personDes54067548_02).
+personDes(personDes12905103_07).
+personDes(personDes12905103_03).
+
+
+
+
+
+
+
+

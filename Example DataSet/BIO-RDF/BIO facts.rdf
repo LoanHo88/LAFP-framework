@@ -1,0 +1,74 @@
+<rdf:RDF xmlns:bgn="http://data.biographynet.nl/rdf/" 
+xmlns:ore="http://www.openarchives.org/ore/terms/" 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/BioDes-54067548_01">
+<bgn:hasFileDes rdf:resource="http://data.biographynet.nl/rdf/FileDes-54067548_01"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/BioDes-54067548_02">
+<bgn:hasFileDes rdf:resource="http://data.biographynet.nl/rdf/FileDes-54067548_02"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/BioDes-54067548_03">
+<bgn:hasFileDes rdf:resource="http://data.biographynet.nl/rdf/FileDes-54067548_03"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/BioDes-54067548_04">
+<bgn:hasFileDes rdf:resource="http://data.biographynet.nl/rdf/FileDes-54067548_04"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/BioDes-12905103_03">
+<bgn:hasFileDes rdf:resource="http://data.biographynet.nl/rdf/FileDes-12905103_03"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/BioDes-12905103_07">
+<bgn:hasFileDes rdf:resource="http://data.biographynet.nl/rdf/FileDes-12905103_07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/PersonDes-12905103_03" bgn:personName="Versteeg, Nikolaes ">
+<bgn:event>
+<rdf:Description bgn:type="birth" bgn:when="1700-10-11"/>
+</bgn:event>
+<ore:proxyFor rdf:resource="http://data.biographynet.nl/rdf/Person-12905103"/>
+<ore:proxyIn rdf:resource="http://data.biographynet.nl/rdf/BioDes-12905103_03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/PersonDes-12905103_07" bgn:personName="Versteeg, Nikolaes">
+<bgn:event>
+<rdf:Description bgn:type="birth" bgn:when="1704"/>
+</bgn:event>
+<ore:proxyFor rdf:resource="http://data.biographynet.nl/rdf/Person-12905103"/>
+<ore:proxyIn rdf:resource="http://data.biographynet.nl/rdf/BioDes-12905103_07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/PersonDes-54067548_01" bgn:personName="Simon de Graaff">
+<bgn:event>
+<rdf:Description bgn:type="death" bgn:when="1948-10-02"/>
+</bgn:event>
+<ore:proxyFor rdf:resource="http://data.biographynet.nl/rdf/Person-54067548"/>
+<ore:proxyIn rdf:resource="http://data.biographynet.nl/rdf/BioDes-54067548_01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/PersonDes-54067548_02" bgn:personName="Simon de Graaff">
+<bgn:event>
+<rdf:Description bgn:type="death" bgn:when="1953-01-22"/>
+</bgn:event>
+<ore:proxyFor rdf:resource="http://data.biographynet.nl/rdf/Person-54067548"/>
+<ore:proxyIn rdf:resource="http://data.biographynet.nl/rdf/BioDes-54067548_02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/PersonDes-54067548_03" bgn:personName="Simon de Graaff">
+<bgn:event>
+<rdf:Description bgn:type="death" bgn:when="1948"/>
+</bgn:event>
+<ore:proxyFor rdf:resource="http://data.biographynet.nl/rdf/Person-54067548"/>
+<ore:proxyIn rdf:resource="http://data.biographynet.nl/rdf/BioDes-54067548_03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.biographynet.nl/rdf/PersonDes-54067548_04" bgn:personName="Simon de Graaff">
+<bgn:event>
+<rdf:Description bgn:type="death" bgn:when="1953-01-22"/>
+</bgn:event>
+<ore:proxyFor rdf:resource="http://data.biographynet.nl/rdf/Person-54067548"/>
+<ore:proxyIn rdf:resource="http://data.biographynet.nl/rdf/BioDes-54067548_04"/>
+</rdf:Description>
+
+</rdf:RDF>
+
+

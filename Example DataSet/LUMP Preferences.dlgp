@@ -1,0 +1,6 @@
+postdoc(ann) 2
+associateProfessor(ann) 1
+fullProfessor(ann) 1
+advisor(ann,bob) 1
+lecturer(ann) 3
+teach(ann,c1) 1

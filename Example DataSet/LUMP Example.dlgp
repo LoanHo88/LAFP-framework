@@ -1,0 +1,21 @@
+postdoc(ann).
+associateProfessor(ann).
+fullProfessor(ann).
+advisor(ann, bob).
+lecturer(ann).
+teach(ann,c1).
+
+professor(X0) :- associateProfessor(X0).
+professor(X1) :- advisor(X1,X0).
+professor(X0) :- fullProfessor(X0).
+
+! :- postdoc(X0),lecturer(X0).
+! :- professor(X0), postdoc(X0).
+! :- fullProfessor(X0), associateProfessor(X0).
+
+
+
+
+ 
+
+

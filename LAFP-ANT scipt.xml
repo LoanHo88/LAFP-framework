@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project my-graal-app with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+    <!--ANT 1.7 is required-->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="C:/Users/tho310/eclipse-workspace"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/LAFP-GUI.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="windowBuilder.views.UserInterface"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ ConArg.jar javaDungAF.jar DEFT-1.0.0.jar org.eclipse.swt.win32.win32.x86_64-3.123.0.jar org.eclipse.swt-3.123.0.jar logback-classic-1.2.3.jar logback-core-1.2.3.jar slf4j-api-1.7.25.jar graal-core-1.3.1.jar graal-util-1.3.1.jar jgrapht-core-0.9.0.jar graal-api-1.3.1.jar commons-lang3-3.5.jar graal-io-dlgp-1.3.1.jar dlgp2-parser-2.1.1.jar graal-kb-1.3.1.jar graal-forward-chaining-1.3.1.jar graal-grd-1.3.1.jar graal-backward-chaining-1.3.1.jar graal-homomorphism-1.3.1.jar graal-rules-analyser-1.3.1.jar owlapi-distribution-5.1.19.jar owlapi-compatibility-5.1.19.jar jackson-core-2.9.10.jar jackson-databind-2.9.10.8.jar jackson-annotations-2.9.10.jar commons-rdf-api-0.5.0.jar xz-1.6.jar jcl-over-slf4j-1.7.22.jar rdf4j-model-3.4.3.jar rdf4j-rio-api-3.4.3.jar rdf4j-rio-languages-3.4.3.jar rdf4j-rio-datatypes-3.4.3.jar rdf4j-rio-binary-3.4.3.jar rdf4j-rio-n3-3.4.3.jar rdf4j-rio-nquads-3.4.3.jar rdf4j-rio-ntriples-3.4.3.jar rdf4j-rio-rdfjson-3.4.3.jar rdf4j-rio-jsonld-3.4.3.jar httpclient-4.5.10.jar httpcore-4.4.12.jar httpclient-cache-4.5.10.jar rdf4j-rio-rdfxml-3.4.3.jar rdf4j-rio-trix-3.4.3.jar rdf4j-rio-turtle-3.4.3.jar rdf4j-rio-trig-3.4.3.jar rdf4j-rio-hdt-3.4.3.jar rdf4j-util-3.4.3.jar jsonld-java-0.13.0.jar httpclient-osgi-4.5.10.jar commons-codec-1.11.jar httpmime-4.5.10.jar fluent-hc-4.5.10.jar httpcore-osgi-4.4.12.jar httpcore-nio-4.4.12.jar hppcrt-0.7.5.jar caffeine-2.8.1.jar checker-qual-3.1.0.jar error_prone_annotations-2.3.4.jar guava-30.0-jre.jar failureaccess-1.0.1.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar j2objc-annotations-1.3.jar jsr305-3.0.2.jar commons-io-2.7.jar org.semanticweb.hermit-1.4.5.519.jar commons-logging-1.1.3.jar axiom-api-1.2.14.jar geronimo-activation_1.1_spec-1.1.jar geronimo-javamail_1.4_spec-1.7.1.jar jaxen-1.1.4.jar geronimo-stax-api_1.0_spec-1.0.1.jar apache-mime4j-core-0.7.2.jar axiom-c14n-1.2.14.jar axiom-impl-1.2.14.jar woodstox-core-asl-4.1.4.jar stax2-api-3.1.1.jar axiom-dom-1.2.14.jar automaton-1.11-8.jar java-getopt-1.0.13.jar trove4j-3.0.3.jar jena-shacl-4.6.1.jar jena-arq-4.6.1.jar jena-core-4.6.1.jar jena-base-4.6.1.jar jena-shaded-guava-4.6.1.jar commons-csv-1.9.0.jar commons-compress-1.21.jar collection-0.7.jar jena-iri-4.6.1.jar commons-cli-1.5.0.jar gson-2.9.1.jar titanium-json-ld-1.3.1.jar jakarta.json-2.0.1.jar protobuf-java-3.21.4.jar libthrift-0.16.0.jar javax.annotation-api-1.3.2.jar jena-shex-4.6.1.jar jena-tdb-4.6.1.jar jena-tdb2-4.6.1.jar jena-dboe-storage-4.6.1.jar jena-dboe-trans-data-4.6.1.jar jena-dboe-transaction-4.6.1.jar jena-dboe-base-4.6.1.jar jena-dboe-index-4.6.1.jar jena-rdfconnection-4.6.1.jar iri-0.8.jar icu4j-3.4.4.jar graal-io-owl-1.3.1.jar owlapi-apibinding-4.0.1.jar guice-4.0-beta.jar aopalliance-1.0.jar guice-multibindings-4.0-beta.jar org.apache.commons.io-2.4.jar commons-collections4-4.1.jar graal-defeasible-core-0.0.6.jar junit-jupiter-5.8.2.jar junit-jupiter-api-5.8.2.jar opentest4j-1.2.0.jar junit-platform-commons-1.8.2.jar apiguardian-api-1.1.2.jar junit-jupiter-params-5.8.2.jar junit-jupiter-engine-5.8.2.jar junit-platform-engine-1.8.2.jar junit-4.13.2.jar hamcrest-core-1.3.jar owlapi-parsers-5.1.20.jar owlapi-api-5.1.20.jar javax.inject-1.jar graal-io-rdf-1.3.1.jar rdf4j-common-1.3.1.jar collections-generic-4.01.jar colt-1.2.0.jar concurrent-1.3.4.jar j3d-core-1.3.1.jar JaCoP-3.1.jar vecmath-1.3.1.jar jung-api-2.0.1.jar jung-algorithms-2.0.1.jar jung-visualization-2.0.1.jar jung-3d-2.0.1.jar jung-graph-impl-2.0.1.jar jung-3d-demos-2.0.1.jar wstx-asl-3.2.6.jar stax-api-1.0.1.jar jung-io-2.0.1.jar jung-jai-2.0.1.jar jung-samples-2.0.1.jar jung-jai-samples-2.0.1.jar jung2-2_0_1.zip"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="C:/Users/tho310/my-graal-app/target/classes"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg" includes="ConArg.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup" includes="javaDungAF.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup" includes="DEFT-1.0.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/platform/org.eclipse.swt.win32.win32.x86_64/3.123.0" includes="org.eclipse.swt.win32.win32.x86_64-3.123.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/platform/org.eclipse.swt/3.123.0" includes="org.eclipse.swt-3.123.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/ch/qos/logback/logback-classic/1.2.3" includes="logback-classic-1.2.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/ch/qos/logback/logback-core/1.2.3" includes="logback-core-1.2.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/slf4j/slf4j-api/1.7.25" includes="slf4j-api-1.7.25.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-core/1.3.1" includes="graal-core-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-util/1.3.1" includes="graal-util-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/jgrapht/jgrapht-core/0.9.0" includes="jgrapht-core-0.9.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-api/1.3.1" includes="graal-api-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/commons/commons-lang3/3.5" includes="commons-lang3-3.5.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-io-dlgp/1.3.1" includes="graal-io-dlgp-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/dlgp2-parser/2.1.1" includes="dlgp2-parser-2.1.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-kb/1.3.1" includes="graal-kb-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-forward-chaining/1.3.1" includes="graal-forward-chaining-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-grd/1.3.1" includes="graal-grd-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-backward-chaining/1.3.1" includes="graal-backward-chaining-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-homomorphism/1.3.1" includes="graal-homomorphism-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-rules-analyser/1.3.1" includes="graal-rules-analyser-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/net/sourceforge/owlapi/owlapi-distribution/5.1.19" includes="owlapi-distribution-5.1.19.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/5.1.19" includes="owlapi-compatibility-5.1.19.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10" includes="jackson-core-2.9.10.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.8" includes="jackson-databind-2.9.10.8.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10" includes="jackson-annotations-2.9.10.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/commons/commons-rdf-api/0.5.0" includes="commons-rdf-api-0.5.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/tukaani/xz/1.6" includes="xz-1.6.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.22" includes="jcl-over-slf4j-1.7.22.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-model/3.4.3" includes="rdf4j-model-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-api/3.4.3" includes="rdf4j-rio-api-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-languages/3.4.3" includes="rdf4j-rio-languages-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-datatypes/3.4.3" includes="rdf4j-rio-datatypes-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-binary/3.4.3" includes="rdf4j-rio-binary-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-n3/3.4.3" includes="rdf4j-rio-n3-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-nquads/3.4.3" includes="rdf4j-rio-nquads-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-ntriples/3.4.3" includes="rdf4j-rio-ntriples-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-rdfjson/3.4.3" includes="rdf4j-rio-rdfjson-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-jsonld/3.4.3" includes="rdf4j-rio-jsonld-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/httpclient/4.5.10" includes="httpclient-4.5.10.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/httpcore/4.4.12" includes="httpcore-4.4.12.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/httpclient-cache/4.5.10" includes="httpclient-cache-4.5.10.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-rdfxml/3.4.3" includes="rdf4j-rio-rdfxml-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-trix/3.4.3" includes="rdf4j-rio-trix-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-turtle/3.4.3" includes="rdf4j-rio-turtle-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-trig/3.4.3" includes="rdf4j-rio-trig-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-hdt/3.4.3" includes="rdf4j-rio-hdt-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/eclipse/rdf4j/rdf4j-util/3.4.3" includes="rdf4j-util-3.4.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/github/jsonld-java/jsonld-java/0.13.0" includes="jsonld-java-0.13.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/httpclient-osgi/4.5.10" includes="httpclient-osgi-4.5.10.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/commons-codec/commons-codec/1.11" includes="commons-codec-1.11.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/httpmime/4.5.10" includes="httpmime-4.5.10.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/fluent-hc/4.5.10" includes="fluent-hc-4.5.10.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/httpcore-osgi/4.4.12" includes="httpcore-osgi-4.4.12.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.12" includes="httpcore-nio-4.4.12.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/github/vsonnier/hppcrt/0.7.5" includes="hppcrt-0.7.5.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.8.1" includes="caffeine-2.8.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/checkerframework/checker-qual/3.1.0" includes="checker-qual-3.1.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4" includes="error_prone_annotations-2.3.4.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/guava/guava/30.0-jre" includes="guava-30.0-jre.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/guava/failureaccess/1.0.1" includes="failureaccess-1.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava" includes="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/j2objc/j2objc-annotations/1.3" includes="j2objc-annotations-1.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/code/findbugs/jsr305/3.0.2" includes="jsr305-3.0.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/commons-io/commons-io/2.7" includes="commons-io-2.7.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/net/sourceforge/owlapi/org.semanticweb.hermit/1.4.5.519" includes="org.semanticweb.hermit-1.4.5.519.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/commons-logging/commons-logging/1.1.3" includes="commons-logging-1.1.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/ws/commons/axiom/axiom-api/1.2.14" includes="axiom-api-1.2.14.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1" includes="geronimo-activation_1.1_spec-1.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1" includes="geronimo-javamail_1.4_spec-1.7.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/jaxen/jaxen/1.1.4" includes="jaxen-1.1.4.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1" includes="geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/james/apache-mime4j-core/0.7.2" includes="apache-mime4j-core-0.7.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/ws/commons/axiom/axiom-c14n/1.2.14" includes="axiom-c14n-1.2.14.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/ws/commons/axiom/axiom-impl/1.2.14" includes="axiom-impl-1.2.14.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.1.4" includes="woodstox-core-asl-4.1.4.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.1" includes="stax2-api-3.1.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/ws/commons/axiom/axiom-dom/1.2.14" includes="axiom-dom-1.2.14.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/dk/brics/automaton/automaton/1.11-8" includes="automaton-1.11-8.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/gnu/getopt/java-getopt/1.0.13" includes="java-getopt-1.0.13.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/net/sf/trove4j/trove4j/3.0.3" includes="trove4j-3.0.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-shacl/4.6.1" includes="jena-shacl-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-arq/4.6.1" includes="jena-arq-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-core/4.6.1" includes="jena-core-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-base/4.6.1" includes="jena-base-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-shaded-guava/4.6.1" includes="jena-shaded-guava-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/commons/commons-csv/1.9.0" includes="commons-csv-1.9.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/commons/commons-compress/1.21" includes="commons-compress-1.21.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/github/andrewoma/dexx/collection/0.7" includes="collection-0.7.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-iri/4.6.1" includes="jena-iri-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/commons-cli/commons-cli/1.5.0" includes="commons-cli-1.5.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/code/gson/gson/2.9.1" includes="gson-2.9.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/apicatalog/titanium-json-ld/1.3.1" includes="titanium-json-ld-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/glassfish/jakarta.json/2.0.1" includes="jakarta.json-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/protobuf/protobuf-java/3.21.4" includes="protobuf-java-3.21.4.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/thrift/libthrift/0.16.0" includes="libthrift-0.16.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/javax/annotation/javax.annotation-api/1.3.2" includes="javax.annotation-api-1.3.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-shex/4.6.1" includes="jena-shex-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-tdb/4.6.1" includes="jena-tdb-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-tdb2/4.6.1" includes="jena-tdb2-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-dboe-storage/4.6.1" includes="jena-dboe-storage-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-dboe-trans-data/4.6.1" includes="jena-dboe-trans-data-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-dboe-transaction/4.6.1" includes="jena-dboe-transaction-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-dboe-base/4.6.1" includes="jena-dboe-base-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-dboe-index/4.6.1" includes="jena-dboe-index-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/jena/jena-rdfconnection/4.6.1" includes="jena-rdfconnection-4.6.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/hp/hpl/jena/iri/0.8" includes="iri-0.8.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/ibm/icu/icu4j/3.4.4" includes="icu4j-3.4.4.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-io-owl/1.3.1" includes="graal-io-owl-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.0.1" includes="owlapi-apibinding-4.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/inject/guice/4.0-beta" includes="guice-4.0-beta.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/aopalliance/aopalliance/1.0" includes="aopalliance-1.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/com/google/inject/extensions/guice-multibindings/4.0-beta" includes="guice-multibindings-4.0-beta.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/directory/studio/org.apache.commons.io/2.4" includes="org.apache.commons.io-2.4.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apache/commons/commons-collections4/4.1" includes="commons-collections4-4.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-defeasible-core/0.0.6" includes="graal-defeasible-core-0.0.6.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2" includes="junit-jupiter-5.8.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2" includes="junit-jupiter-api-5.8.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/opentest4j/opentest4j/1.2.0" includes="opentest4j-1.2.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2" includes="junit-platform-commons-1.8.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/apiguardian/apiguardian-api/1.1.2" includes="apiguardian-api-1.1.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2" includes="junit-jupiter-params-5.8.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2" includes="junit-jupiter-engine-5.8.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2" includes="junit-platform-engine-1.8.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/junit/junit/4.13.2" includes="junit-4.13.2.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/org/hamcrest/hamcrest-core/1.3" includes="hamcrest-core-1.3.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/5.1.20" includes="owlapi-parsers-5.1.20.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/net/sourceforge/owlapi/owlapi-api/5.1.20" includes="owlapi-api-5.1.20.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/javax/inject/javax.inject/1" includes="javax.inject-1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/graal-io-rdf/1.3.1" includes="graal-io-rdf-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/.m2/repository/fr/lirmm/graphik/rdf4j-common/1.3.1" includes="rdf4j-common-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="collections-generic-4.01.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="colt-1.2.0.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="concurrent-1.3.4.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="j3d-core-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="JaCoP-3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="vecmath-1.3.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-api-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-algorithms-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-visualization-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-3d-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-graph-impl-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-3d-demos-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="wstx-asl-3.2.6.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="stax-api-1.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-io-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-jai-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-samples-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung-jai-samples-2.0.1.jar"/>
+            <zipfileset dir="C:/Users/tho310/Setup/Abstract Argumentation/ConArg/lib" includes="jung2-2_0_1.zip"/>
+        </jar>
+    </target>
+</project>
